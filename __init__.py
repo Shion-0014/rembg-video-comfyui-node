@@ -111,12 +111,12 @@ class ImageRemoveBackgroundRembg:
             image = remove(
                     image,
                     session=new_session(model),
-                    post_process_mask=post_processing,
-                    alpha_matting=alpha_matting,
-                    alpha_matting_foreground_threshold=alpha_matting_foreground_threshold,
-                    alpha_matting_background_threshold=alpha_matting_background_threshold,
-                    alpha_matting_erode_size=alpha_matting_erode_size,
-                    only_mask=only_mask,
+                    # post_process_mask=post_processing,
+                    # alpha_matting=alpha_matting,
+                    # alpha_matting_foreground_threshold=alpha_matting_foreground_threshold,
+                    # alpha_matting_background_threshold=alpha_matting_background_threshold,
+                    # alpha_matting_erode_size=alpha_matting_erode_size,
+                    # only_mask=only_mask,
                     bgcolor=bgrgba,
                     # putalpha = putalpha,
                 )
